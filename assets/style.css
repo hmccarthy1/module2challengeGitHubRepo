@@ -13,13 +13,19 @@ header #nameSection {
     justify-content: center;
     font-family: cursive;
 }
-
+h1 p {
+    display: inline;
+    font-family:cursive;
+    font-style: italic;
+    padding: 0%;
+    margin: 0;
+}
 .hoverText {display: none;}
 
 #nameSection h1:hover {
     display: none;
 }
-#nameSection h1:hover +  {display: block;
+#nameSection h1:hover + .hoverText {display: block;
 color: white;}
 
 header img {
