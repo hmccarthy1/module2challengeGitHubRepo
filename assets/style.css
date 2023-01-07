@@ -3,7 +3,6 @@ header {
     display: flex;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    height: 100px;
 
    align-items: stretch;
    justify-content: space-between;
@@ -52,13 +51,18 @@ header nav ul li {
 
 @media screen and (max-width: 600px) {
 
+    header  {
+        height: 50px;
+    }
     header nav ul li {
         font-size: 10px;}
 }
 
 
 @media screen and (min-width: 600px) {
-
+    header  {
+        height: 100px;
+    }
     header nav ul li {
         font-size: 12px;}
 }
@@ -67,12 +71,17 @@ header nav ul li {
 
 @media screen and (min-width: 768px) {
 
+    header  {
+        height: 150px;
+    }
     header nav ul li {
         font-size: 14px;}
 }
 
 @media screen and (min-width: 992px) {
-
+    header {
+        height: 200px;
+    }
     header nav ul li {
         font-size: 18px;}
 }
