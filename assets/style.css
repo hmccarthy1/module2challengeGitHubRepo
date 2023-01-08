@@ -102,12 +102,19 @@ main h4 {
 @media screen and (max-width: 992px) {
 
     main img {
-        grid-column: 3 / 9;
+        grid-column: 2 / span 10;
+        
     }
 
     header  {
-        height: 32pt;
+        height: 64pt;
+    
     }
 
+    header nav {
+        justify-self: center;
+    }
+
+    
     
 }
