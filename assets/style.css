@@ -69,7 +69,7 @@ main img {
     margin-top: 32pt;
     display: flex;
     flex-direction: column;
-    padding: 5pt;
+    padding: 2%;
     justify-content: start;
     background-color: var(--darkestVariation);
     
