@@ -1,103 +1,46 @@
-header {
-    background-color: black;
-    display: flex;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    align-items: stretch;
-    justify-content: space-between;
-  }
-header #nameSection {
-    align-items: center;
-    display: flex;
-    flex-grow: .5;
-    justify-content: center;
-    font-family: cursive;
+:root {
+    --darkestVariation: rgb(34, 43, 41);
+    --darkVariation: rgb(53, 65, 62);
+    --mediumVariation: rgb(77, 91, 88);
+    --lightVariation: rgb(160, 171, 169);
+    --lightestVariation: rgb(202, 206, 205);
+    --white: rgb(255, 255, 255);
+    --primaryColor: rgb(42, 234, 190);
 }
-h1 p {
-    display: inline;
-    font-family:cursive;
-    font-style: italic;
-    padding: 0%;
-    margin: 0;
-}
-.hoverText {display: none;}
-
-#nameSection h1:hover {
-    display: none;
-}
-#nameSection h1:hover + .hoverText {display: block;
-color: white;}
-
-header img {
-    flex-grow: .1;
-    margin-left: 5%;
-}
-
-
-
-  header nav {
-    flex-grow: 1;
-    display: flex;
-    justify-items: stretch;
-}
-header h1 {
    
-    margin-left: 5%;
-    
-}
-
-header a {
-    color: white;}
-header nav ul{
+body {
+    background-color: var(--darkestVariation);
     display: flex;
-    align-items: center;
-    flex-grow: 1;
+    align-items: stretch;
+    border-color: var(--darkVariation);
+    border-width: 1px;
+    border-style: solid;
+    height: 100%;
+
+}
+aside {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+    color: var(--white);
+    width: 10rem;
+    border-color: var(--mediumVariation);
+    border-style: solid;
+    border-radius: 10px;
+    max-height: fit-content;
+    margin-top: 1%;
+    text-align: center;}
+
+aside a {
+    display: flex;
+    text-decoration: none;
+    color: var(--darkVariation);
+    background-color: var(--primaryColor);
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
     justify-content: center;
-
-
-    
+    align-items: center;
+    margin: 10px 0px;
 }
-header nav ul li {
-    font-size: 1px;
-    display: inline;
-    padding-left: 5%;
-
-}
-
-@media screen and (max-width: 600px) {
-
-    header  {
-        height: 50px;
-    }
-    header nav ul li {
-        font-size: 10px;}
-}
-
-
-@media screen and (min-width: 600px) {
-    header  {
-        height: 100px;
-    }
-    header nav ul li {
-        font-size: 12px;}
-}
-
-
-
-@media screen and (min-width: 768px) {
-
-    header  {
-        height: 150px;
-    }
-    header nav ul li {
-        font-size: 32px;}
-}
-
-@media screen and (min-width: 992px) {
-    header {
-        height: 200px;
-    }
-    header nav ul li {
-        font-size: 18px;}
-}
-
