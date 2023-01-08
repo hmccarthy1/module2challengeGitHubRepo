@@ -115,6 +115,8 @@ main h4 {
         justify-self: center;
     }
 
-    
+    main h2 {
+        color: red;
+    }
     
 }
