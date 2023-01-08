@@ -99,7 +99,7 @@ main h4 {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
 
     main img {
         grid-column: 3 / 9;
