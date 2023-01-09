@@ -92,10 +92,42 @@ main h4 {
     color: var(--lightVariation);
 }
 
+#aboutMe {
+    font-size: 24pt;
+    text-align: center;
+    grid-column: span 12;
+    margin-top: 15vh;
+}
+
 .aboutMe {
     grid-column: span 12;
-    height: 100vh;
+}
 
+main .card {
+    grid-column: span 4;
+    justify-self: center;
+    background-color: var(--darkestVariation);
+    
+}
+
+main .card h2 {
+    color: var(--white);
+}
+
+main .card h3 {
+    color: var(--lightestVariation);
+}
+
+.card ul li {
+    color: var(--lightestVariation);
+}
+
+#learningPath {
+    justify-self: left;
+    margin-left: 8pt;
+    border-top-left-radius: 8pt;
+    border-top-right-radius: 8pt;
+    padding: 10px 20px;
 }
 
 
