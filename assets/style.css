@@ -178,6 +178,9 @@ main .card h3 {
 
 }
 
+.buffer {
+    grid-column: span 12;
+}
 .workCard img {
     margin-left: 0pt;
     margin-top: 0pt;
@@ -185,7 +188,39 @@ main .card h3 {
     border-top-left-radius: 0pt;
 }
 
+.contactMe {
+    
+    background-color: var(--darkestVariation);
+    grid-column: span 12;
+}
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
 
+.contactMe h1 {
+    grid-column: span 12;
+}
+
+.contactMe h2 {
+    grid-column: span 3;
+    margin-left: 24pt;
+}
+.contactMe a {
+    margin-left: 24pt;
+    grid-column: span 4;
+    font-size: 24pt;
+}
+
+.phoneNumber h2 {
+    margin-left: 24pt;
+    color: white;
+}
+.phoneNumber {
+    display: flex;
+    grid-column: span 12;
+}
 @media screen and (max-width: 1100px) {
 
     .intro {
