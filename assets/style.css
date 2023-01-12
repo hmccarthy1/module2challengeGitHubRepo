@@ -178,6 +178,10 @@ main .card h3 {
 
 }
 
+#contactMe {
+    margin-left: 24pt;
+}
+
 .buffer {
     grid-column: span 12;
 }
@@ -186,6 +190,10 @@ main .card h3 {
     margin-top: 0pt;
     border-top-right-radius: 0pt;
     border-top-left-radius: 0pt;
+}
+
+.contactMe h1 {
+    margin-left: 24pt;
 }
 
 .contactMe {
@@ -198,9 +206,13 @@ main .card h3 {
     align-items: center;
     justify-content: start;
 }
+ .email h2 {
+    margin-left: 24pt;
+}
 
 .contactMe h1 {
     grid-column: span 12;
+    margin-left: 24pt;
 }
 
 .contactMe h2 {
