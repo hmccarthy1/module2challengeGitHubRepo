@@ -8,3 +8,7 @@ The goal of this project was to develop a preliminary portfolio to be displayed 
 ## Screenshot of deployed application
 
 ![asdfasdf](assets/sss.jpeg)
+
+## link to deployed website
+
+(https://hmccarthy1.github.io/module2challengeGitHubRepo/)
